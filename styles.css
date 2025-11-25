@@ -308,27 +308,6 @@ body {
     transition: transform var(--transition-normal);
 }
 
-.expandable-card.active .expand-icon {
-    transform: rotate(45deg);
-}
-
-.card-content {
-    padding: var(--spacing-md);
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height var(--transition-slow), padding var(--transition-normal);
-}
-
-.expandable-card.active .card-content {
-    max-height: 5000px;
-    padding: var(--spacing-md);
-}
-
-.featured-card {
-    border: 2px solid rgba(99, 102, 241, 0.3);
-    box-shadow: 0 0 30px rgba(99, 102, 241, 0.2);
-}
-
 .primary-text {
     font-size: 1.1rem;
     line-height: 2;
