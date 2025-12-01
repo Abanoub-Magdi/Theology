@@ -40,7 +40,23 @@
             <h1 class="hero-title">اللاهوت في المسيحية</h1>
             <p class="hero-subtitle">دراسة شاملة في طبيعة الله والثالوث الأقدس</p>
             <div class="hero-date">
-                <span>📅 تاريخ اليوم: ٢٥ نوفمبر ٢٠٢٥</span>
+                <!-- <span>📅 تاريخ اليوم: ٢٥ نوفمبر ٢٠٢٥</span> -->
+                <span id="today-date"></span>
+
+                <script>
+                    // Get today's date
+                    const today = new Date();
+
+                    // Format the date in Arabic (Egypt) — change locale if you want
+                    const formattedDate = today.toLocaleDateString("ar-EG", {
+                        day: "numeric",
+                        month: "long",
+                        year: "numeric"
+                    });
+
+                    // Insert into the span
+                    document.getElementById("today-date").textContent = "📅 تاريخ اليوم: " + formattedDate;
+                </script>
             </div>
         </div>
     </section>
