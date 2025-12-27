@@ -16,6 +16,8 @@ An interactive web application providing a comprehensive guide to Christian Theo
 
 Perfect for students, teachers, and anyone interested in learning about Christian Theology in Arabic.
 
+![Project Preview](assets/project_preview.png)
+
 ## ✨ Features
 
 - 📖 **Comprehensive Theological Content**: Covers essential Christian doctrines
